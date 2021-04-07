@@ -1,0 +1,15 @@
+{
+  "name": "malinko",
+  "version": "1.0.0",
+  "description": "malinko app testing",
+  "main": "index.js",
+  "scripts": {
+    "cy:headless": "cypress run",
+    "cy:chrome": "cypress run -b chrome"
+  },
+  "author": "Robert Murphy",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
